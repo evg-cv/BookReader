@@ -21,7 +21,7 @@ ROOT_DIR = environ.Path(__file__) - 2
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'xzt5lsg_$(7pu%ko+9-vca3fs-4j1p0@a%dq3*7xzk-3gdnbd@'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -209,9 +209,9 @@ TINYMCE_DEFAULT_CONFIG = {
 LOAN_PERIOD = 13
 
 THUMBNAIL_DEBUG = True
-GOGLE_MAPS_API_KEY = 'AIzaSyD0oUO40Gy8uzUCJRHHzRa6lHHx4V4aLHU'
+GOGLE_MAPS_API_KEY = ''
 
-STRIPE_API_KEY = 'sk_test_BS2t9JImRsscT1vyWNsPYGLK'
+STRIPE_API_KEY = ''
 
 FILE_UPLOAD_MAX_MEMORY_SIZE = 200000000
 
@@ -219,8 +219,8 @@ FILE_UPLOAD_MAX_MEMORY_SIZE = 200000000
 # https://stackoverflow.com/a/19939041/9396019
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_S3_ACCESS_KEY_ID = 'AKIAI3ALAOEZETXI6ZMA'
-AWS_S3_SECRET_ACCESS_KEY = '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'
+AWS_S3_ACCESS_KEY_ID = ''
+AWS_S3_SECRET_ACCESS_KEY = ''
 AWS_STORAGE_BUCKET_NAME = 'snacstaging'
 AWS_OCR_STORAGE_BUCKET = 'snappdl'
 OCR_OBJECT = 'ocr/'
